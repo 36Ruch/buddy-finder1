@@ -5,15 +5,18 @@ const PostRequest = () => {
   const [age, setAge] = useState('');
   const [gender, setGender] = useState('');
   const [preferredGender, setPreferredGender] = useState('');
+  const [college, setCollege] = useState(''); // <-- New state for college name
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Request posted:\nName: ${name}\nAge: ${age}\nGender: ${gender}\nPreferred Gender: ${preferredGender}\nLocation: ${location}\nPurpose: ${description}`);
+    alert(`Request posted:\nName: ${name}\nAge: ${age}\nGender: ${gender}\nPreferred Gender: ${preferredGender}\nCollege: ${college}\nLocation: ${location}\nPurpose: ${description}`);
     setName('');
     setAge('');
     setGender('');
     setPreferredGender('');
+    setCollege(''); // <-- Reset college name
     setLocation('');
     setDescription('');
   };
@@ -59,6 +62,13 @@ const PostRequest = () => {
         </select>
         <input
           type="text"
+          placeholder="College Name" // <-- New input for college name
+          value={college}
+          onChange={e => setCollege(e.target.value)}
+          required
+        />
+        <input
+          type="text"
           placeholder="Location"
           value={location}
           onChange={e => setLocation(e.target.value)}
@@ -76,3 +86,4 @@ const PostRequest = () => {
   );
 };
 export default PostRequest;
+

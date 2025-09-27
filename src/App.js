@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Events from "./Pages/Events";
 import BuddyListing from "./Pages/BuddyListing";
 import PostRequest from "./Pages/PostRequest";
+
 function App() {
   return (
     <Router>
@@ -11,6 +12,7 @@ function App() {
          <Route path="/" element={<Events />} /> 
         <Route path="/buddies" element={<BuddyListing />} />
         <Route path="/post" element={<PostRequest />} />
+      
       </Routes>
     </Router>
   );
