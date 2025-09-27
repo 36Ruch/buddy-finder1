@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(255, 87, );
+}
+ 
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+     
+    }
+
+    .container {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 15px;
+      width: 350px;
+      box-shadow: 0 6px 18px rgba(110, 38, 38, 0.2);
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: #332;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #1b407f;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #EE82EE;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #EE82EE;
+    }
+
+    p {
+      margin-top: 18px;
+      font-size: 16px;
+    }
+
+    
+
+    .form {
+      display: none;
+    }
+
+    .form.active {
+      display: block;
+    }
+    .link_text{
+      color: #2575fc;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .linkk_text{
+      color: #2575fc;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .fa-eye{
+      position: absolute;
+      top: 52%;
+      right: 20%;
+      cursor: pointer;
+      
+
+    }
+    
+    .fa-eye-slash{
+      position: absolute;
+      top: 52%;
+      right: 20%;
+
+    }
+  
