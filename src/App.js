@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/buddies" element={<BuddyListing />} />
-        <Route path="/postrequest" element={<PostRequest />} />
+        <Route path="/post" element={<PostRequest />} />
       </Routes>
     </Router>
   );

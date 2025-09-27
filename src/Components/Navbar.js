@@ -1,10 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-
 const Navbar = () => (
   <nav className="navbar">
-    {/* Wrap links in a container to push slightly right */}
     <div className="navbar-links-container">
       <ul className="navbar-links">
         <li>
@@ -29,13 +27,10 @@ const Navbar = () => (
         </li>
       </ul>
     </div>
-
-    {/* Auth buttons on the far right */}
     <div className="navbar-auth">
       <NavLink to="/login" className="login-btn">Login</NavLink>
       <NavLink to="/signup" className="signup-btn">Signup</NavLink>
     </div>
   </nav>
 );
-
 export default Navbar;
