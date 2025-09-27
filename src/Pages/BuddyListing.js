@@ -10,7 +10,6 @@ const initialBuddies = [
   { title: 'Ananya', description: 'AI & Robotics', image: 'https://i.pravatar.cc/80?img=5' },
   { title: 'Kabir', description: 'Cybersecurity', image: 'https://i.pravatar.cc/80?img=6' }
 ];
-
 const BuddyListing = () => {
   const [buddies] = useState(initialBuddies);
 
