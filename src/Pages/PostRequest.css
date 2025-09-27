@@ -25,20 +25,22 @@
 }
 
 .postrequest-form input,
-.postrequest-form textarea {
+.postrequest-form textarea,
+.postrequest-form select {
   width: 100%;
-  padding: 12px 14px;
+  padding: 12px 14px; /* Consistent padding for all fields */
   border: 1px solid #d1d5db;
   border-radius: 8px;
   font-size: 1rem;
   background: #f8fafc;
   transition: border-color 0.2s, background 0.2s;
-  resize: none;
   box-sizing: border-box;
+  resize: none;
 }
 
 .postrequest-form input:focus,
-.postrequest-form textarea:focus {
+.postrequest-form textarea:focus,
+.postrequest-form select:focus {
   border-color: #bf4aa8;
   outline: none;
   background: #fff0fa;
