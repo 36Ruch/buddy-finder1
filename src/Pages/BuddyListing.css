@@ -61,3 +61,14 @@
   transform: scale(1.05);
   background: linear-gradient(90deg, #5a54e6, #7c3aed);
 }
+.buddy-listing-container {
+  text-align: center; 
+  padding: 40px 20px; 
+}
+
+.buddy-title {
+  font-size: 2rem;       
+  font-weight: 700;
+  margin-bottom: 30px;   
+  color: #111827;      
+}

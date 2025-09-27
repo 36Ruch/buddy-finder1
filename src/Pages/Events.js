@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from '../Components/Card';
 const events = [
-  { title: 'Hackathon 2025', description: 'Join coding teams & win prizes!', image: 'https://randomuser.me/api/portraits/men/45.jpg' },
-  { title: 'Tech Workshop', description: 'Learn AI & ML with experts', image: 'https://randomuser.me/api/portraits/women/46.jpg' },
-  { title: 'Design Sprint', description: 'UI/UX challenge & collaboration', image: 'https://randomuser.me/api/portraits/men/47.jpg' },
-  { title: 'Startup Meetup', description: 'Network with young entrepreneurs', image: 'https://randomuser.me/api/portraits/women/48.jpg' },
+  { title: 'Hackathon 2025', description: 'Join coding teams & win prizes!', image: '' },
+  { title: 'Tech Workshop', description: 'Learn AI & ML with experts', image: '' },
+  { title: 'Design Sprint', description: 'UI/UX challenge & collaboration', image: '' },
+  { title: 'Startup Meetup', description: 'Network with young entrepreneurs', image: '' },
 ];
 const Events = () => (
   <div className="home-container">

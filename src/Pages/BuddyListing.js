@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import Card from '../Components/Card';
 import './BuddyListing.css';
 
+const defaultAvatar = "https://cdn-icons-png.flaticon.com/512/847/847969.png"; // neutral user icon
+
 const initialBuddies = [
-  { title: 'Amit', description: 'Web & Blockchain', image: 'https://i.pravatar.cc/80?img=1' },
-  { title: 'Sara', description: 'ML & Python', image: 'https://i.pravatar.cc/80?img=2' },
-  { title: 'Priya', description: 'UI/UX & React', image: 'https://i.pravatar.cc/80?img=3' },
-  { title: 'Rohan', description: 'Data Science', image: 'https://i.pravatar.cc/80?img=4' },
-  { title: 'Ananya', description: 'AI & Robotics', image: 'https://i.pravatar.cc/80?img=5' },
-  { title: 'Kabir', description: 'Cybersecurity', image: 'https://i.pravatar.cc/80?img=6' }
+  { title: 'Amit', description: 'Web & Blockchain', image: defaultAvatar },
+  { title: 'Sara', description: 'ML & Python', image: defaultAvatar },
+  { title: 'Priya', description: 'UI/UX & React', image: defaultAvatar },
+  { title: 'Rohan', description: 'Data Science', image: defaultAvatar },
+  { title: 'Ananya', description: 'AI & Robotics', image: defaultAvatar },
+  { title: 'Kabir', description: 'Cybersecurity', image: defaultAvatar }
 ];
+
 const BuddyListing = () => {
   const [buddies] = useState(initialBuddies);
   return (
@@ -23,5 +26,5 @@ const BuddyListing = () => {
     </div>
   );
 };
-export default BuddyListing;
 
+export default BuddyListing;
