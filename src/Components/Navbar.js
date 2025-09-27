@@ -4,12 +4,11 @@ import './Navbar.css';
 
 const Navbar = () => (
   <nav className="navbar">
-    {/* Wrap links in a container to push slightly right */}
     <div className="navbar-links-container">
       <ul className="navbar-links">
         <li>
           <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>
-            Home
+            Events
           </NavLink>
         </li>
         <li>
@@ -28,12 +27,6 @@ const Navbar = () => (
           </NavLink>
         </li>
       </ul>
-    </div>
-
-    {/* Auth buttons on the far right */}
-    <div className="navbar-auth">
-      <NavLink to="/login" className="login-btn">Login</NavLink>
-      <NavLink to="/signup" className="signup-btn">Signup</NavLink>
     </div>
   </nav>
 );

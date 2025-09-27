@@ -12,18 +12,16 @@ const initialBuddies = [
 ];
 const BuddyListing = () => {
   const [buddies] = useState(initialBuddies);
-
   return (
     <div className="buddy-listing-container">
       <h1 className="buddy-title">Campus Event Buddies</h1>
       <div className="card-row">
         {buddies.map((buddy, idx) => (
-          <Card key={idx} {...buddy} />
+          <Card key={idx} {...buddy} showConnect={true} />
         ))}
       </div>
     </div>
   );
 };
-
 export default BuddyListing;
 
