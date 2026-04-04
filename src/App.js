@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Events from "./Pages/Events";
 import BuddyListing from "./Pages/BuddyListing";
 import PostRequest from "./Pages/PostRequest";
+
 function App() {
   return (
     <Router>
