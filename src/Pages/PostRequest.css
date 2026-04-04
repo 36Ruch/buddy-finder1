@@ -9,7 +9,6 @@
   flex-direction: column;
   gap: 20px;
 }
-
 .postrequest-container h2 {
   text-align: center;
   color: #232b32;
@@ -17,7 +16,6 @@
   font-weight: 700;
   margin-bottom: 12px;
 }
-
 .postrequest-form {
   display: flex;
   flex-direction: column;

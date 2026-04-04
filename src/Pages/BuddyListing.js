@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from '../Components/Card';
 import './BuddyListing.css';
 
-const defaultAvatar = "https://cdn-icons-png.flaticon.com/512/847/847969.png"; // neutral user icon
+const defaultAvatar = "https://cdn-icons-png.flaticon.com/512/847/847969.png"; 
 
 const initialBuddies = [
   { title: 'Amit', description: 'Web & Blockchain', image: defaultAvatar },
